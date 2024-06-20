@@ -7,4 +7,4 @@ use App\Http\Controllers\ProductController;
     return view('welcome');
 });*/
 
-//Route::get('/', [ProductController::class, 'show']);
+Route::get('/', [ProductController::class, 'show']);
